@@ -87,7 +87,7 @@ function prbhn(){if (opsLcheck == jumlahP - 1) {kecepatan=55;/*var prg = documen
 function tombol(){wallpaper.style="transform: scale(1);";Tombol.style="opacity:1;transform: scale(1);";fungsi=1}
 //document.getElementById("By").onclick = function() {if(fungsi==1){menuju();}}
 async function menuju(){
-    window.location = "wa.me/6285772355170" + pesanwhatsapp;
+    window.location = "https://api.whatsapp.com/send?phone=6285772355170&text=" + pesanwhatsapp;
     muncultombol3();
 }
 
